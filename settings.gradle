@@ -1,0 +1,9 @@
+rootProject.name = "AndroidLab"
+include ':app'
+include ':c11'
+include ':c14'
+include ':c19'
+include ':c20'
+include ':c21'
+include ':c23'
+include ':c24'
