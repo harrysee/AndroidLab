@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <SwitchPreference
+        app:key="serverFlag"
+        android:summaryOff="서버 연동이 비활성화 되어있습니다"
+        android:summaryOn="서버 연동이 활성화 되어있습니다."
+        android:title="서버연동"/>
+
+    <PreferenceCategory
+        android:dependency="serverFlag"
+        android:title="서버연동정보">
+        <EditTextPreference
+            android:key="serverId"
+            android:title="ID"/>
+        <ListPreference
+            android:key="sound_list"
+            android:title="서버 메시지 알림음"
+            android:entries="@array/array_voice"
+            android:entryValues="@array/array_voice"/>
+    </PreferenceCategory>
+</PreferenceScreen>

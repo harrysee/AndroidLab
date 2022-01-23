@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory
+        app:key="a_category"
+        app:title="A setting">
+        <SwitchPreference
+            app:key="a1"
+            app:title="A - 1 Setting"/>
+        <SwitchPreference
+            app:key="a2"
+            app:title="A - 2 Setting"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:key="B_category"
+        app:title="B Setting">
+        <SwitchPreference
+            app:key="b1"
+            app:title="B - 1 Setting"/>
+    </PreferenceCategory>
+</PreferenceScreen>
