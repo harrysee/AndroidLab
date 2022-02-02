@@ -64,6 +64,8 @@
             <option value="$PROJECT_DIR$/c87" />
             <option value="$PROJECT_DIR$/c88" />
             <option value="$PROJECT_DIR$/c90" />
+            <option value="$PROJECT_DIR$/c91" />
+            <option value="$PROJECT_DIR$/c92" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
