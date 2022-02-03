@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         toggle = ActionBarDrawerToggle(this, binding.drawer,R.string.open,R.string.close)
         supportActionBar?.setDisplayHomeAsUpEnabled(true) // 액션바부분에 토글 추가
         toggle.syncState() // 싱크 맞추기
-
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
